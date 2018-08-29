@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To valide getUser call",
+        "description": "",
+        "id": "to-test-userapi;to-valide-getuser-call",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85225929,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I performs a get request to \"/api/articles.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/api/articles.json",
+                  "offset": 29
+                }
+              ],
+              "location": "UserApi.a_user_performs_a_get_request_to_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1520107436,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "and perform the get request",
+            "match": {
+              "location": "UserApi.and_perform_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25235541,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "UserApi.the_response_code_should_be_200(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@TestSuite"
+          }
+        ]
+      }
+    ],
+    "name": "To test userapi",
+    "description": "",
+    "id": "to-test-userapi",
+    "keyword": "Feature",
+    "uri": "userapi.feature"
+  }
+]

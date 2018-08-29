@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="1.630569">
+<testcase classname="To test userapi" name="To valide getUser call" time="1.630569">
+<system-out><![CDATA[Given I performs a get request to "/api/articles.json"......................passed
+When and perform the get request............................................passed
+Then the response code should be 200........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

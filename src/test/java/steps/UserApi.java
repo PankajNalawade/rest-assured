@@ -14,7 +14,7 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 
 public class UserApi {
-    private String hostUrl= "https://dev.api.business.tikkie.me/api/v1";
+    private String hostUrl= "https://www.healthcare.gov";
     private Response response;
     private ValidatableResponse json;
     String url;
